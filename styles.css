@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap');
+
 
 :root{
     --gray:#374151;
@@ -18,7 +20,7 @@ header{
 }
 
 body{
-    background-color:white;
+    background-color:#F9FAFB;
     margin: 0px;
     font-family: 'Love Ya Like A Sister', cursive;
 }
@@ -48,8 +50,8 @@ textarea{
     position: relative;
     margin: 2rem;
     margin-left: 65%;
-    border-style: none;
     border-radius: 0.5rem;
+    border-color: var(--gray);
     padding: 0.7rem 1rem;
     font-size: larger;
     background-color: var(--minion-color);
@@ -59,17 +61,24 @@ textarea{
 button{
     padding: 0.5rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 #output{
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Rokkitt', serif;
     margin-top: 0%;
-    font-size: larger;
+    font-size: x-large;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size:140%;
+    margin: 0px;
+    padding-top: 1rem;
 }
 
 footer{
     background-color:var(--gray);
-    height: 10rem;
     margin-top: 2rem;
 }
 
