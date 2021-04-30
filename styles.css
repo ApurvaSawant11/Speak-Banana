@@ -1,9 +1,59 @@
-textarea{
-    padding: 1rem;
-    width: 80%;
-    height: 10vh;
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+:root{
+    --gray:#374151;
+    --minion-color:#ffe346;
+    --txtbox-color:#FCD34D;
+}
+
+header{
+    background-color:var(--gray);
+    padding: 0.5rem;
     display: block;
-    margin:1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: larger;
+    color: white;
+}
+
+body{
+    background-color:white;
+    margin: 0px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#img-eyes{
+    display: block;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 46.5%;
+    height: 20vh;
+    margin: auto;
+}
+
+textarea{
+    padding: 2rem;
+    width: 42%;
+    height: 15vh;
+    display: block;
+    margin:auto;
+    margin-top: 2rem;
+    border-color:var(--txtbox-color);
+    font-family: 'Lora', serif;
+    font-size: large;
+}
+
+#btn-translate{
+    position: relative;
+    margin: 2rem;
+    margin-left: 65%;
+    border-style: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-size: larger;
+    background-color: var(--minion-color);
+    font-weight: bold;
 }
 
 button{
@@ -12,10 +62,19 @@ button{
 }
 
 #output{
-    border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    padding: 1rem;
-    margin:1rem
-    
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 0%;
+    font-size: larger;
+}
+
+footer{
+    background-color:var(--gray);
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+#img-footer{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

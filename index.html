@@ -8,12 +8,24 @@
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <textarea id="txt-input" placeholder="Enter your sentence in english here and we will convert it to banana"></textarea>   
+    <header class="header">
+        <h1 id="txt-title">Speak Banana</h1>    
+    </header>
+
+    <img id="img-eyes" src="/images/minionEyes.png"/>
+
+    <textarea id="txt-input" placeholder="Enter your sentence in english here and we will convert it to banana"></textarea> 
     <button id="btn-translate">Translate</button>
 
-    <div style="font-size: large; padding: 1rem;">Ouput will be here:</div>
-    <div id="output"></div>
+    <textarea readonly id="output" placeholder="minion dif..."></textarea>
+
     <script src="app.js" type="text/javascript"></script>
+    
+    <footer>
+        <img id="img-footer" src="/images/Minions_characters.png"/>
+    </footer>
+
+    
     
 </body>
 </html>
