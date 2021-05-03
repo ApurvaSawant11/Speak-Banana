@@ -20,7 +20,8 @@ header{
 }
 
 body{
-    background-color:#F9FAFB;
+    background-image: url(/images/Ba-Na-Nana-15.png);
+    background-size: contain;
     margin: 0px;
     font-family: 'Love Ya Like A Sister', cursive;
 }
@@ -37,10 +38,10 @@ body{
 textarea{
     padding: 2rem;
     width: 42%;
-    height: 15vh;
+    height: 14vh;
     display: block;
     margin:auto;
-    margin-top: 2rem;
+    border-width:0.14vw;
     border-color:var(--txtbox-color);
     font-family: 'Lora', serif;
     font-size: large;
@@ -48,7 +49,7 @@ textarea{
 
 #btn-translate{
     position: relative;
-    margin: 2rem;
+    margin: 1rem;
     margin-left: 65%;
     border-radius: 0.5rem;
     border-color: var(--gray);
@@ -74,7 +75,7 @@ p{
     text-align: center;
     font-size:140%;
     margin: 0px;
-    padding-top: 1rem;
+    padding-top: 0.2rem;
 }
 
 footer{
@@ -87,3 +88,4 @@ footer{
     margin-right: auto;
     display: block;
 }
+
