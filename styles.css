@@ -14,9 +14,10 @@ header{
     padding: 0.5rem;
     display: block;
     text-align: center;
-    border-radius: 0.5rem;
     font-size: larger;
     color: white;
+    border-bottom-left-radius: 0.5rem ;
+    border-bottom-right-radius: 0.5rem ;
 }
 
 body{
@@ -49,19 +50,17 @@ textarea{
 
 #btn-translate{
     position: relative;
-    margin: 1rem;
-    margin-left: 65%;
     border-radius: 0.5rem;
     border-color: var(--gray);
     padding: 0.7rem 1rem;
     font-size: larger;
     background-color: var(--minion-color);
     font-weight: bold;
-}
-
-button{
     padding: 0.5rem;
-    margin: 1rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     cursor: pointer;
 }
 
@@ -80,12 +79,16 @@ p{
 
 footer{
     background-color:var(--gray);
+    padding-top: 0.5rem;
     margin-top: 2rem;
+    border-top-left-radius: 0.5rem ;
+    border-top-right-radius: 0.5rem ;
 }
 
 #img-footer{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 20%;
 }
 
