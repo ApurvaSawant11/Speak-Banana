@@ -92,3 +92,19 @@ footer{
     width: 20%;
 }
 
+ul{
+    padding: 1em;
+    text-align: center;
+}
+
+  
+li {
+    
+    display: inline;
+    padding: 0.5em;
+    list-style: none;
+}
+  
+i{
+    color: white;
+}
